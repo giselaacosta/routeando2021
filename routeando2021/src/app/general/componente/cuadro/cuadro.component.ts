@@ -7,6 +7,7 @@ import { Component, OnInit,Input, Output ,EventEmitter} from '@angular/core';
 })
 export class CuadroComponent implements OnInit {
 @Input() colorporinput:string;
+
 @Output() eventoCambioDeColor:EventEmitter <any>= new EventEmitter<any>();
   constructor() { }
 

@@ -12,4 +12,8 @@ colormensaje:string= 'ninguncolor';
   ngOnInit(): void {
   }
 
+  cambiarColor(color:string){
+this.colormensaje=color;
+
+  }
 }
